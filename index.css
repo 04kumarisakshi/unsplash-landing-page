@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav
+{padding-top: 15px;
+    display: flex;
+    gap: 25px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.nav img{
+    padding-left: 20px;
+    width: 35px;
+}
+.option button{
+    padding-top: 13px;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    color: gray;
+    background-color: white;
+    font-size: 15px;
+    font-family: "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+}
+.nav button:hover{
+  color: rgb(18, 18, 18);
+ 
+}
+.search-box{
+    width: 880px;
+    height: 42px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    
+}
+.search-box button{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+}
+.search-box button img{
+  
+    width: 25px;
+    padding: 0px;
+    cursor: pointer;
+}
+.nav input{
+    width: 760px;
+    height: 25px;
+    background-color: rgb(240, 240, 240);
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 5px;
+    border: none;
+    padding-left: 15px;
+}
+
+.submit{
+    padding: 2px;
+    width: 120px;
+    cursor: pointer;
+}
+.top{
+    display:flex;
+    padding: 150px 40px 58px 400px;
+  
+  gap: 35px;
+}
+.name{
+    display: flex;
+    gap: 20px;
+}
+.name i {
+  width: 10px;
+  color: rgb(116, 114, 114);
+}
+.name i:hover{
+  color: black;
+}
+h1{
+    font-size: 48px;
+    font-family: "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+}
+
+.gray-button{
+   
+    width: 49px;
+   height: 32px;
+   margin: 11px 3px 0px 2px;
+   border-radius: 4px;
+   border-color:rgb(148, 145, 145);
+   border-style:solid;
+}
+.gray-button:hover{
+  border-color: black;
+  color: black;
+}
+.blue-button{
+    background-color: rgb(58, 157, 237);
+    border: none;
+   width: 49px;
+   height: 32px;
+   margin: 11px 11px 0px 11px;
+   border-radius: 4px;
+   font-size: 14px;
+   color: white;
+   
+}
+.blue-button:hover{
+  background-color:rgb(67, 170, 254);
+  cursor: pointer;
+}
+.top img{
+  width: 175px;
+  height: 170px;
+  border-radius: 50%;
+}
+.top p{
+    padding: 10px;
+    font-size: 18px;
+    font-family:"San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif
+    ;
+}
+.option-buttons{
+    gap: 25px;
+    padding: 10px;
+    display: flex;
+}
+.option-buttons button{
+    padding: 8px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 5px;
+    color: grey;
+    
+}
+.option-buttons button:hover{
+  background-color:  rgb(229, 228, 228);
+  color: black;
+  cursor: pointer;
+}
+.blue-line{
+  margin-top: 5px;
+  color: rgb(43, 142, 241);
+  font-size: 18px;
+}
+.gray-line{
+  color: gray;
+  margin: 5px;
+}
+.nav2{
+    list-style: none;
+    display: flex;
+    padding:20px;
+    gap: 20px;
+    color: grey;
+}
+.nav2 li:hover{
+  color: black;
+  cursor: pointer;
+}
+.container{
+  width: 80%;
+  height: 60%;
+  padding: 40px 40px 40px 70px;
+  margin-left: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 45px 10px 15px ;
+    
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 40%;
+    padding: 15px;
+    gap: 55px;
+    margin-left: 25px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 108%;
+    
+    background-color: white;
+  }
+  .container img:hover{
+    opacity: 0.8;
+    background:radial-gradient(black,rgb(11, 10, 10));
+  cursor: pointer;
+  }
+ 
+  .load{
+    margin-left: 40%;
+    width: fit-content;
+    padding: 10px;
+    height: 55px;
+    font-size: medium;
+    color: grey;
+    background-color: white;
+    border-color: gray;
+    border-style:solid ;
+
+  }
+  .load:hover{
+    border-color: black;
+    color: black;
+  }
+.footer-section {
+padding: 110px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+}
+.footer-section button{
+  padding: 12px;
+  background-color: rgb(240, 240, 240);
+  border: none;
+  border-radius: 5px;
+  gap: 20px;
+  color: grey;
+  width: fit-content;
+  margin-top: 12px;
+}
+.footer-section img {
+  margin-left: 50%;
+  margin-top: 80px;
+  width: 40px;
+}
+ h4{
+  margin-left: 44%;
+  color: gray;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+ }
